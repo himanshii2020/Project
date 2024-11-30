@@ -1,84 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Project</title>
+    <title>Mars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <span class="bg-img"></span>
+    <img src="mars.png" alt="Mars" class="mars">
     <div class="container">
-        <div class="apply_box">
-            <h1>Job Application <span class="title_small">(Web)</span> </h1>
-            <form action="">
-                <div class="form_container">
-                    <div class="form_control">
-                        <label for="first_name">
-                            First Name
-                        </label>
-                        <input type="text" id="first_name" name="first_name" placeholder="Enter first name"> 
-                    </div>
-                    <div class="form_control">
-                        <label for="last_name">
-                            Last Name
-                        </label>
-                        <input type="text" id="last_name" name="last_name" placeholder="Enter last name"> 
-                    </div>
-                    <div class="form_control">
-                        <label for="email">
-                            e-mail
-                        </label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email id"> 
-                    </div>
-                    <div class="form_control">
-                        <label for="job_role">
-                            Job Role
-                        </label>
-                        <select name="job_role" id="job_role">
-                            <option value="">Select Job Role</option>
-                            <option value="frontend">Frontend Developer</option>
-                            <option value="backend">Backend Developer</option>
-                            <option value="full_stack">Full Stack Developer</option>
-                            <option value="ui_ux">UI/UX Designer</option>
-                        </select>
-                    </div>
-                    <div class="form_control">
-                        <label for="address">
-                            Address
-                        </label>
-                        <textarea name="address" id="address" row="20" cols="50" placeholder="Enter address"></textarea>
-                    </div>
-                    <div class="form_control">
-                        <label for="city">
-                            City
-                        </label>
-                        <input type="text" id="city" name="city" placeholder="Enter city name "> 
-                    </div>
-                    <div class="form_control">
-                        <label for="pincode">
-                            Pincode
-                        </label>
-                        <input type="number" id="pincode" name="pincode" placeholder="Enter city pincode "> 
-                    </div>
-                    <div class="form_control">
-                        <label for="date">
-                            Date
-                        </label>
-                        <input type="date" id="date" name="date"> 
-                    </div>
-                    <div class="form_control">
-                        <label for="upload">
-                            Upload Your CV
-                        </label>
-                        <input type="file" id="upload" name="upload"> 
-                    </div>
-                </div>
-                <div class="button_container">
-                    <button type="submit">Apply Now</button>
-                   
-                </div>
-            </form>
-        </div>
+        <header>
+            <a href="#">Mars</a>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Launch Schedule</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </header>
+        <main>
+            <h1>Humans live on Mars <br>is it possible?</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, labore. Placeat neque odit sequi ex
+                commodi, itaque quae! Pariatur neque nostrum eligendi saepe tempora excepturi maxime impedit quisquam
+                dolorum porro?</p>
+
+            <div class="d-flex">
+                <a href="#">
+                    <span>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                    Explore Mars
+                </a>
+                <a href="#">
+                    <span>
+                        <i class="fas fa-play"></i>
+                    </span>
+                    Watch video
+                </a>
+            </div>
+            <ol class="info">
+                <li class="item">
+                    <h5>01</h5>
+                    <h4>China started the exploration of Mars</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, voluptatum.</p>
+                </li>
+                <li class="item">
+                    <h5>02</h5>
+                    <h4>7 facts of mars</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, voluptatum.</p>
+                </li>
+            </ol>
+        </main>
+        
     </div>
 </body>
+
 </html>
